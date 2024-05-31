@@ -1,0 +1,6 @@
+export PATH=/opt/homebrew/bin:$PATH
+ brew tap mongodb/brew   
+export PATH="$PATH:/usr/local/mongodb/bin"
+
+mongod --config /opt/homebrew/etc/mongod.conf --fork
+добавлю воды
